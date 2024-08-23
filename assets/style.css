@@ -2,95 +2,95 @@
 
 /* Reseta margens e preenchimento padrão */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* Estilos gerais do corpo */
 body {
-    font-family: Arial, sans-serif;
-    overflow-x: hidden;
+  font-family: Arial, sans-serif;
+  overflow-x: hidden;
 
 }
 
 /* Estilos do menu lateral */
 .sidebar {
-    height: 100vh;
-    width: 80px; /* Largura inicial do menu */
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: rgb(0, 0, 0);
-    color: white;
-    transition: width 0.3s; /* Transição suave para abrir/fechar */
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  height: 100vh;
+  width: 80px; /* Largura inicial do menu */
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  transition: width 0.3s; /* Transição suave para abrir/fechar */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .sidebar-header {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
 .logo {
-    width: 50px;
-    height: auto;
-    margin-bottom: 10px;
+  width: 50px;
+  height: auto;
+  margin-bottom: 10px;
 }
 
 .toggle-btn {
-    background: none;
-    border: none;
-    color: white;
-    font-size: 24px;
-    cursor: pointer;
-    display: block;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 24px;
+  cursor: pointer;
+  display: block;
 }
 
 .sidebar-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    transition: opacity 0.3s; /* Transição suave para a visibilidade dos botões */
-    opacity: 0;
-    visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  transition: opacity 0.3s; /* Transição suave para a visibilidade dos botões */
+  opacity: 0;
+  visibility: hidden;
 }
 
 .nav-btn {
-    background-color: rgb(243, 3, 3);
-    color: white;
-    border: none;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 4px;
-    width: 60%;
-    text-align: center;
-    cursor: pointer;
+  background-color: rgb(243, 3, 3);
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 4px;
+  width: 60%;
+  text-align: center;
+  cursor: pointer;
 }
 
 .nav-btn:hover {
-    background-color: #555;
+  background-color: #555;
 }
 
 /* Estilos do conteúdo principal */
 .content {
-    margin-left: 80px; /* Ajusta a margem para a largura inicial do menu */
-    padding: 20px;
+  margin-left: 80px; /* Ajusta a margem para a largura inicial do menu */
+  padding: 20px;
 }
 
 /* Quando o menu estiver aberto */
 .sidebar.open {
-    width: 250px;
+  width: 250px;
 }
 
 .sidebar.open .sidebar-content {
-    opacity: 1;
-    visibility: visible;
+  opacity: 1;
+  visibility: visible;
 }
