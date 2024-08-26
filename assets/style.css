@@ -22,7 +22,7 @@ body {
   top: 0;
   left: 0;
   background-color: rgb(0, 0, 0);
-  color: rgb(133, 116, 116);
+  color: rgb(255, 255, 255);
   transition: width 0.3s; /* Transição suave para abrir/fechar */
   overflow: hidden;
   display: flex;
@@ -61,6 +61,7 @@ body {
   transition: opacity 0.3s; /* Transição suave para a visibilidade dos botões */
   opacity: 0;
   visibility: hidden;
+  color: white;
 }
 
 .nav-btn {
@@ -78,7 +79,7 @@ body {
 }
 
 .nav-btn:hover {
-  background-color: #724848;
+  background-color: #500d0d;
 }
 
 /* Estilos do conteúdo principal */
@@ -98,4 +99,10 @@ body {
 }
 .nav-btn a{
   text-decoration: none;
+  color: white  ;
+  font-family:sans-serif;
+ font-weight:900;
+}
+.last{
+  
 }
