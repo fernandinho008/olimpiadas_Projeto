@@ -22,7 +22,7 @@ body {
   top: 0;
   left: 0;
   background-color: rgb(0, 0, 0);
-  color: white;
+  color: rgb(133, 116, 116);
   transition: width 0.3s; /* Transição suave para abrir/fechar */
   overflow: hidden;
   display: flex;
@@ -78,7 +78,7 @@ body {
 }
 
 .nav-btn:hover {
-  background-color: #555;
+  background-color: #724848;
 }
 
 /* Estilos do conteúdo principal */
@@ -95,4 +95,7 @@ body {
 .sidebar.open .sidebar-content {
   opacity: 1;
   visibility: visible;
+}
+.nav-btn a{
+  text-decoration: none;
 }
