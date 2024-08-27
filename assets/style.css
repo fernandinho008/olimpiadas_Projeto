@@ -10,8 +10,6 @@
 /* Estilos gerais do corpo */
 body {
   font-family: Arial, sans-serif;
-  overflow-x: hidden;
-  background-image: url(./esgrima.png);
 }
 
 /* Estilos do menu lateral */
