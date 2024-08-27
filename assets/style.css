@@ -11,7 +11,7 @@
 body {
   font-family: Arial, sans-serif;
   overflow-x: hidden;
-
+  background-image: url(./esgrima.png);
 }
 
 /* Estilos do menu lateral */
@@ -47,7 +47,7 @@ body {
 .toggle-btn {
   background: none;
   border: none;
-  color: white;
+  color: rgb(216, 211, 211);
   font-size: 24px;
   cursor: pointer;
   display: block;
@@ -104,5 +104,25 @@ body {
  font-weight:900;
 }
 .last{
-  
+  background-color: rgb(243, 3, 3);
+  color: white;
+  border: none;
+  padding: 10px;
+  margin: 500px;
+  border-radius: 4px;
+  width: 60%;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+ 
 }
+.last:hover {
+  background-color: #500d0d;
+}
+.last a{
+  text-decoration: none;
+  color: white  ;
+  font-family:sans-serif;
+ font-weight:900;
+}
+
