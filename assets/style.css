@@ -11,7 +11,14 @@
 body {
   font-family: Arial, sans-serif;
 }
-
+.title{
+  text-align: center;
+  font-size: 35px;
+  @font-face {
+    font-family: 'Bakbak One';
+    src: url('https://fonts.google.com/specimen/Bakbak+One?query=Bakbak+One');
+  }
+}
 /* Estilos do menu lateral */
 .sidebar {
   height: 100vh;
