@@ -22,7 +22,7 @@ body {
 /* Estilos do menu lateral */
 .sidebar {
   height: 100vh;
-  width: 80px; /* Largura inicial do menu */
+  width: 100px; /* Largura inicial do menu */
   position: fixed;
   top: 0;
   left: 0;
