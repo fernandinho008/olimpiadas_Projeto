@@ -13,12 +13,38 @@ body {
 }
 .title{
   text-align: center;
-  font-size: 35px;
+  font-size: 64px;
+   @font-face { 
+    font-family: 'Bakbak One';
+    src: url('https://fonts.google.com/specimen/Bakbak+One?query=Bakbak+One'); 
+   } 
+}
+.text-img{
+  font-size: 37px;
+  margin-left: 100px;
+  margin-right: 400px;
+  margin-bottom: 100px;
+  @font-face { 
+    font-family: 'Bakbak One';
+    src: url('https://fonts.google.com/specimen/Bakbak+One?query=Bakbak+One'); 
+   } 
+}
+
+aside{
+  display: flex;
+  margin-left: 250px;
+}
+.center{
+font-size: 37px;
+margin: 250px;
+/* margin-left: 170px; */
   @font-face {
     font-family: 'Bakbak One';
     src: url('https://fonts.google.com/specimen/Bakbak+One?query=Bakbak+One');
   }
 }
+
+
 /* Estilos do menu lateral */
 .sidebar {
   height: 100vh;
@@ -75,7 +101,7 @@ body {
   border: none;
   padding: 10px;
   margin: 10px;
-  border-radius: 4px;
+  border-radius: 10px;
   width: 60%;
   text-align: center;
   cursor: pointer;
