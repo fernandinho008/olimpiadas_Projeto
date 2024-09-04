@@ -22,7 +22,7 @@ body {
 .text-img{
   font-size: 37px;
   margin-left: 100px;
-  margin-right: 400px;
+  margin-right: 150px;
   margin-bottom: 100px;
   @font-face { 
     font-family: 'Bakbak One';
@@ -36,7 +36,10 @@ aside{
 }
 .center{
 font-size: 37px;
-margin: 250px;
+margin-left: 250px;
+margin-right: 250px;
+margin-top: 100px;
+margin-bottom: 100px;
 /* margin-left: 170px; */
   @font-face {
     font-family: 'Bakbak One';
@@ -44,6 +47,9 @@ margin: 250px;
   }
 }
 
+.img-pric{
+  
+}
 
 /* Estilos do menu lateral */
 .sidebar {
