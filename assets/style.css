@@ -34,6 +34,7 @@ aside{
   display: flex;
   margin-left: 250px;
 }
+
 .center{
 font-size: 37px;
 margin-left: 250px;
@@ -47,10 +48,49 @@ margin-bottom: 100px;
   }
 }
 
-.img-pric{
-  
+.img-final1{
+  border-bottom: 100px;
+  border-color: #500d0d;
 }
 
+.img-final2{
+  border: 100px;
+  border-color: #500d0d;
+}
+
+
+
+.article-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 520px;
+  font-size: 30px;
+  margin-top: 100px;
+  margin-bottom: 15px;
+}
+.article-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0px;
+  margin-right: 70px;
+  gap: 320px;
+}
+
+.text-article-button1{
+font-size: 30px;
+}
+
+.text-article-botton2{
+  font-size: 30px;
+}
+
+.last-text{
+  font-size: 30px;
+  margin-left: 150px;
+  margin-right: 150px;
+}
 /* Estilos do menu lateral */
 .sidebar {
   height: 100vh;
