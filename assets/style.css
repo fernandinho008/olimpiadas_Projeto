@@ -12,6 +12,7 @@ body {
   font-family: Arial, sans-serif;
 }
 .title{
+  margin-top: 5vh;
   text-align: center;
   font-size: 64px;
    @font-face { 
@@ -19,10 +20,11 @@ body {
     src: url('https://fonts.google.com/specimen/Bakbak+One?query=Bakbak+One'); 
    } 
 }
+
 .text-img{
   font-size: 37px;
   margin-left: 100px;
-  margin-right: 150px;
+  margin-right: 5vh;
   margin-bottom: 100px;
   @font-face { 
     font-family: 'Bakbak One';
@@ -32,13 +34,17 @@ body {
 
 aside{
   display: flex;
-  margin-left: 250px;
+  margin-left: 10%;
+}
+
+p{
+  margin-bottom: 10vh;
 }
 
 .center{
 font-size: 37px;
-margin-left: 250px;
-margin-right: 250px;
+margin-left: 10%;
+margin-right: 5%;
 margin-top: 100px;
 margin-bottom: 100px;
 /* margin-left: 170px; */
@@ -57,8 +63,6 @@ margin-bottom: 100px;
   border: 100px;
   border-color: #500d0d;
 }
-
-
 
 .article-button{
   display: flex;
