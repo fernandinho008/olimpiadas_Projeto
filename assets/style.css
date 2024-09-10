@@ -5,6 +5,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Bakbak One", sans-serif;
+}
+.bakbak-one-regular {
+  font-family: "Bakbak One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 /* Estilos gerais do corpo */
@@ -14,11 +20,7 @@ body {
 .title{
   margin-top: 5vh;
   text-align: center;
-  font-size: 64px;
-   @font-face { 
-    font-family: 'Bakbak One';
-    src: url('https://fonts.google.com/specimen/Bakbak+One?query=Bakbak+One'); 
-   } 
+  font-size: 64px; 
 }
 
 .text-img{
@@ -66,18 +68,19 @@ margin-bottom: 100px;
 
 .article-button{
   display: flex;
+  text-align: center;
   justify-content: center;
   align-items: center;
-  gap: 520px;
+  gap: 500px;
   font-size: 30px;
-  margin-top: 100px;
-  margin-bottom: 15px;
 }
+
 .article-img{
   display: flex;
+  margin-left: 40px;
   justify-content: center;
   align-items: center;
-  margin-left: 0px;
+  text-align: center;
   margin-right: 70px;
   gap: 320px;
 }
@@ -95,6 +98,7 @@ font-size: 30px;
   margin-left: 150px;
   margin-right: 150px;
 }
+
 /* Estilos do menu lateral */
 .sidebar {
   height: 100vh;
@@ -205,6 +209,20 @@ font-size: 30px;
   color: white  ;
   font-family:sans-serif;
  font-weight:900;
+}
+
+.footer{
+  height: 30px;
+  width: 100%;
+  background-color: #262626;
+}
+
+.button{
+  display: flex;
+  height: 50px;
+  width: 500px;
+  background-color: rgb(70, 60, 62);
+  margin: 30px;
 }
 
 
