@@ -56,15 +56,7 @@ margin-bottom: 100px;
   }
 }
 
-.img-final1{
-  border-bottom: 100px;
-  border-color: #500d0d;
-}
 
-.img-final2{
-  border: 100px;
-  border-color: #500d0d;
-}
 
 .article-button{
   display: flex;
@@ -222,7 +214,7 @@ font-size: 30px;
   height: 50px;
   width: 500px;
   background-color: rgb(70, 60, 62);
-  margin: 30px;
+  margin-bottom: 30px;
 }
 
 
