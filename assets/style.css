@@ -74,8 +74,22 @@ margin-bottom: 100px;
   justify-content: center;
   align-items: center;
   margin-left: 0px;
-  margin-right: 70px;
+  margin-right: 40px;
   gap: 320px;
+}
+
+.saiba-mais{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-right: 40px;
+  gap: 750px;
+
+}
+
+.div1{
+  border: 15px;
+  border-color: gray;
 }
 
 .text-article-button1{
