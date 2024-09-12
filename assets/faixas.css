@@ -1,18 +1,39 @@
-/* styles.css */
-
-/* Reseta margens e preenchimento padrão */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 /* Estilos gerais do corpo */
 body {
-  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   overflow-x: hidden;
+  @font-face { 
+    font-family: 'Bakbak One';
+    src: url('https://fonts.google.com/specimen/Bakbak+One?query=Bakbak+One'); 
+   }
+}
+.bakbak-one-regular {
+  font-family: "Bakbak One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+article{
+  @font-face { 
+    font-family: 'Bakbak One';
+    src: url('https://fonts.google.com/specimen/Bakbak+One?query=Bakbak+One'); 
+   } 
 }
 
+.pag1{
+  display: flex;
+  margin-left: 100px;
+}
+
+.h1-text{
+  font-size: 45px;
+}
+
+.p{
+  font-size: 20px;
+}
 /* Estilos do menu lateral */
 .sidebar {
   height: 100vh;
