@@ -72,13 +72,10 @@ margin-bottom: 100px;
   margin-left: 40px;
   justify-content: center;
   align-items: center;
-<<<<<<< HEAD
   margin-left: 0px;
   margin-right: 40px;
-=======
   text-align: center;
   margin-right: 70px;
->>>>>>> 9835e80a681548f77c232361353fdeb9dcccc79e
   gap: 320px;
 }
 
@@ -86,14 +83,26 @@ margin-bottom: 100px;
   display: flex;
   text-align: center;
   justify-content: center;
-  margin-right: 40px;
-  gap: 750px;
+  align-items:center ;
+  margin-left:0px ;
+  margin-right: 70px;
+  gap: 320px;
+
 
 }
 
 .div1{
   border: 15px;
-  border-color: gray;
+  background-color:#262626;
+  height: 50px;
+  width: 500px;
+}
+
+.div2{
+  border: 15px;
+  background-color:#262626;
+  height: 50px;
+  width: 500px;
 }
 
 .text-article-button1{
