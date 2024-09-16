@@ -56,7 +56,16 @@ margin-bottom: 100px;
   }
 }
 
-
+.div1 a{
+  text-decoration: none;
+  font-size: 40px;
+  color: black;
+}
+.div2 a{
+  text-decoration: none;
+  font-size: 40px;
+  color: black;
+}
 
 .article-button{
   display: flex;
@@ -76,6 +85,7 @@ margin-bottom: 100px;
   margin-right: 40px;
   text-align: center;
   margin-right: 70px;
+  margin-bottom: 0px;
   gap: 320px;
 }
 
@@ -86,6 +96,7 @@ margin-bottom: 100px;
   align-items:center ;
   margin-left:0px ;
   margin-right: 70px;
+  margin-bottom: 40px;
   gap: 320px;
 
 
@@ -94,14 +105,14 @@ margin-bottom: 100px;
 .div1{
   border: 15px;
   background-color:#262626;
-  height: 50px;
+  height: 70px;
   width: 500px;
 }
 
 .div2{
   border: 15px;
   background-color:#262626;
-  height: 50px;
+  height: 70px;
   width: 500px;
 }
 
