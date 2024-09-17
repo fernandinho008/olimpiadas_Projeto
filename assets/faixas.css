@@ -127,7 +127,8 @@
 }
 
 article{
-  margin-right: 100px;
+  margin-right: 300px;
+
 }
 
 .h1{
@@ -158,10 +159,10 @@ footer{
   text-align: center;
   justify-content: center;
   background-color: #500d0d;
-  gap: 1px;
+  gap: 30px;
 }
 
-.p{
+.p1{
   color: #fff;
   font-size: 10px;
   margin-top: 40px;
@@ -171,5 +172,5 @@ footer{
   width: 50px;
   height: 50px;
   margin-top: 25px;
-  margin-left: 1400px;
+  margin-left: 1600px;
 }

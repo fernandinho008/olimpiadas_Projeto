@@ -72,8 +72,9 @@ margin-bottom: 100px;
   text-align: center;
   justify-content: center;
   align-items: center;
-  gap: 500px;
+  gap: 550px;
   font-size: 30px;
+  margin-right: 80px;
 }
 
 .article-img{
@@ -256,4 +257,44 @@ font-size: 30px;
   margin-bottom: 30px;
 }
 
+@media only screen and (max-width: 1600px) {
+  .sidebar{
+    text-align: center;
+    background: none;
+  }
+  a {
+    color:#fff;
+    text-transform:uppercase;
+    text-decoration: none;
+  }
+  .toggle-btn {
+    padding:20px;
+    background: rgba(255,255,255,.75);
+    border-radius:3px;
+    color:#6fabbc;
+    transition:.25s;
+    animation: 1.25s bounce infinite;
+  }
+  .toggle-btn:hover {
+    cursor:pointer;
+    background: rgba(255,255,255,.95);
+    animation-play-state: paused;
+  }
+  ul.open {
+    max-height: 480px;
+    visibility: visible;
+    opacity:1;
+    transform:rotate(0);
+  }
+  
+  /* Credit */
+  
+  .container{
+    color:#fff;
+    text-transform:uppercase;
+    position: absolute;
+    transform:translateX(-50%);
+  }
+}
+/* //https://codepen.io/kieranfivestars/pen/JdbPBv/ */
 

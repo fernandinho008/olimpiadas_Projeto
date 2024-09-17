@@ -174,12 +174,12 @@ footer{
   text-align: center;
   justify-content: center;
   background-color: #500d0d;
-  gap: 1px;
+  gap: 30px;
 }
 
 .p1{
   color: #fff;
-  font-size: 15px;
+  font-size: 03px;
   margin-top: 40px;
 }
 
@@ -187,7 +187,7 @@ footer{
   width: 50px;
   height: 50px;
   margin-top: 25px;
-  margin-left: 1400px;
+  margin-left: 1600px;
 }
 
 
