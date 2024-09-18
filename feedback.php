@@ -11,7 +11,7 @@
 
     <div class="feedback-form">
         <form action="feedback.php" method="post">
-            <label for="nome">Seu Nome:</label>
+            <label for="nome" >Seu Nome:</label>
             <input type="text" id="nome" name="nome" required>
 
             <label for="comentario">Seu Comentário:</label>
