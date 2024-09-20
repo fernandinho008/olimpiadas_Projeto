@@ -5,3 +5,11 @@ const sidebar = document.getElementById('sidebar');
 $("i").click(function () {
     $("ul").toggleClass("open");
   });
+
+  function scrollToSection(sectionId) {
+    const section = document.getElementById(sectionId);
+    
+    section.scrollIntoView({
+        behavior: 'smooth'
+    });
+}

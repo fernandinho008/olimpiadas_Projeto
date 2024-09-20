@@ -17,6 +17,37 @@
 body {
   font-family: Arial, sans-serif;
 }
+.opct{
+  height: 100vh;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+}
+header{
+  height: 100vh;
+  opacity: 70%;
+  background-image: url(./esgrima.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+header > img{
+  transform: rotate(90deg);
+  width: 17vh;
+  margin-bottom: 4%;
+  cursor: pointer;
+  animation: jumping 4s linear infinite;
+}
+
+ /*@keyframes jumping {
+  from {transform: translateY(-7px);}
+  50% {transform: translateY( 0);}
+  to {transform: translateY(-7px);}
+}*/
+
 .title{
   margin-top: 5vh;
   text-align: center;
