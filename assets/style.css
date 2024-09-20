@@ -257,7 +257,17 @@ font-size: 30px;
   margin-bottom: 30px;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 600px) {
+  #img_mid{
+  width: 50vh ;
+  height: 40vh;
+  }
+  h1{
+    font-size: 8vh;
+  }
+  p{
+    font-size: 3vh;
+  }
   .sidebar{
     text-align: center;
     background: none;
