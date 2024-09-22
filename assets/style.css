@@ -26,7 +26,7 @@ body {
 header{
   height: 100vh;
   opacity: 70%;
-  background-image: url(./esgrima.png);
+  background-image: url(./Index_princ_img..png);
   background-position: center;
   background-size: cover;
   display: flex;
@@ -45,8 +45,7 @@ header > img{
   from {transform: translateY(-7px);}
   50% {transform: translateY( 0);}
   to {transform: translateY(-7px);}
-}*/
-
+}
 .title{
   margin-top: 5vh;
   text-align: center;
