@@ -35,14 +35,13 @@ header{
 }
 
 header > img{
-  transform: rotate(90deg);
   width: 17vh;
   margin-bottom: 4%;
   cursor: pointer;
   animation: jumping 4s linear infinite;
 }
 
- /*@keyframes jumping {
+ @keyframes jumping {
   from {transform: translateY(-7px);}
   50% {transform: translateY( 0);}
   to {transform: translateY(-7px);}
