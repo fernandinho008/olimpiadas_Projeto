@@ -12,6 +12,36 @@ body {
   font-family: Arial, sans-serif;
   overflow-x: hidden;
 }
+.opct{
+  height: 100vh;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+}
+header{
+  height: 100vh;
+  opacity: 70%;
+  background-image: url(./Podio_princ_img.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+header > img{
+  width: 17vh;
+  margin-bottom: 4%;
+  cursor: pointer;
+  animation: jumping 4s linear infinite;
+}
+
+ @keyframes jumping {
+  from {transform: translateY(-7px);}
+  50% {transform: translateY( 0);}
+  to {transform: translateY(-7px);}
+}
+
 .podium-title{
   font-size: 50px;
   margin-bottom:100px ;
