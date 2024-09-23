@@ -34,7 +34,7 @@
 
             <!-- Formulário de Feedback -->
             <div class="feedback-form">
-                <form action="index.php" method="post">
+                <form action="feedback.php" method="post">
                     <label for="nome">Seu Nome:</label>
                     <input type="text" id="nome" name="nome" required>
 
