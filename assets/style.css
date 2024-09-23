@@ -98,7 +98,10 @@ margin-bottom: 100px;
 
 .div2 a{
   padding-top: 0.7vh;
-  padding-bottom: 0.9vh;
+  padding-bottom: 0.9vh;    padding:20px;
+  background: rgba(0, 0, 0, 0.925);
+  border-radius:3px;
+  color:#ff0202;
   text-decoration: none;
   font-size: 24px;
   color: white;
@@ -315,9 +318,27 @@ footer{
 }
 
 @media screen and (max-width: 600px) {
+  .opct{
+    height: 30vh;
+  }
+  header{
+    opacity: 100%;
+    width: 100%;
+    height: 100%;
+
+  }
+  header > img{
+    visibility: hidden;
+  }
   #img_mid{
-  width: 50vh ;
-  height: 40vh;
+    position: absolute;
+    height: 30vh;
+    width: 40vh;
+  }
+  .text-img{
+    margin-top: 50vh;
+    margin-left: 0;
+    display: flex;
   }
   h1{
     font-size: 8vh;
@@ -329,39 +350,28 @@ footer{
     text-align: center;
     background: none;
   }
-  a {
-    color:#fff;
-    text-transform:uppercase;
-    text-decoration: none;
-  }
-  .toggle-btn {
+  .toggle-btn { 
+    display: block;
     padding:20px;
-    background: rgba(255,255,255,.75);
+    background: rgba(0, 0, 0, 0.925);
     border-radius:3px;
-    color:#6fabbc;
-    transition:.25s;
-    animation: 1.25s bounce infinite;
+    color:#ff0202;
   }
-  .toggle-btn:hover {
-    cursor:pointer;
-    background: rgba(255,255,255,.95);
-    animation-play-state: paused;
-  }
-  ul.open {
-    max-height: 480px;
-    visibility: visible;
-    opacity:1;
-    transform:rotate(0);
-  }
-  
-  /* Credit */
-  
-  .container{
-    color:#fff;
-    text-transform:uppercase;
+  .sidebar.open {
+    display: block;
     position: absolute;
-    transform:translateX(-50%);
+    background-color: black;
+    width: 50vh;
+    height: 200vh;
+  }
+  .last{
+    margin: 7vh;
+  }
+  .text-article-button1{
+    width: 40%;
+    position: relative;
   }
 }
-/* //https://codepen.io/kieranfivestars/pen/JdbPBv/ */
+
+
 
