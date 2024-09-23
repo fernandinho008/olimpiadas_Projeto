@@ -131,7 +131,7 @@ body {
 }
 
 p{
-  font-size: 30px;
+  font-size: 40px;
 }
 
 
@@ -150,21 +150,21 @@ article{
   display: flex;
   margin: 200px;
   margin-right: 300px;
-  gap: 350px;
+  gap: 300px;
 }
 
 .container2{
   display: flex;
   margin: 200px;
   margin-right: 200px;
-  gap: 350px;
+  gap: 300px;
 }
 
 .container3{
   display: flex;
   margin: 200px;
   margin-right: 200px;
-  gap: 350px;
+  gap: 300px;
 }
 
 
