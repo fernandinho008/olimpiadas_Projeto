@@ -125,43 +125,52 @@ body {
  font-weight:900;
 }
 
-body {
-  font-family: sans-serif;
+p{
+  font-size: 30px;
 }
+
+
 
 .container {
   display: flex;
   align-items: flex-end;
 }
-
-
-.container-principal{
-  margin: 150px;
-}
-.podium__item {
-  width: 200px;
-}
-
-.podium__rank {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 35px;
-  color: #fff;
-}
-
-.podium__city {
+article{
   text-align: center;
-  padding: 0 .5rem;
+  align-items: center;
+  justify-content: center;
+}
+.container1{
+  display: flex;
+  margin: 200px;
+  margin-right: 300px;
+  gap: 350px;
 }
 
-.podium__number {
-  width: 27px;
-  height: 75px;
+.container2{
+  display: flex;
+  margin: 200px;
+  margin-right: 200px;
+  gap: 350px;
 }
+
+.container3{
+  display: flex;
+  margin: 200px;
+  margin-right: 200px;
+  gap: 350px;
+}
+
+
+.podium__item {
+  width: 300px;
+}
+
+
+
 
 .podium .first {
-  min-height: 300px;
+  min-height: 600px;
   background: rgb(255,172,37);
 background: 
   linear-gradient(333deg, 
@@ -172,12 +181,18 @@ background:
 }
 
 .podium .second {
-  min-height: 200px;
-  background: #B3B3B3;
+  min-height: 500px;
+  background: silver;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .podium .third {
-  min-height: 150px;
-  background: #F38346 ;
+  min-height: 300px;
+  background: orange;
 }
 
+article{
+  margin-right: 300px;
+}  
