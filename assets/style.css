@@ -86,14 +86,25 @@ margin-bottom: 100px;
 }
 
 .div1 a{
+  padding-top: 0.7vh;
+  padding-bottom: 0.9vh;
   text-decoration: none;
-  font-size: 40px;
-  color: black;
+  font-size: 24px;
+  color: white;
+  background-color:#525151;
+  padding-inline: 24vh;
+  border-radius: 0px 0px 20px 20px;
 }
+
 .div2 a{
+  padding-top: 0.7vh;
+  padding-bottom: 0.9vh;
   text-decoration: none;
-  font-size: 40px;
-  color: black;
+  font-size: 24px;
+  color: white;
+  background-color:#525151;
+  padding-inline: 24vh;
+  border-radius: 0px 0px 20px 20px;
 }
 
 .article-button{
@@ -132,18 +143,12 @@ margin-bottom: 100px;
 
 }
 
-.div1{
-  border: 15px;
-  background-color:#262626;
-  height: 70px;
-  width: 500px;
+.img-final1{
+  margin-bottom: 10vh;
 }
 
-.div2{
-  border: 15px;
-  background-color:#262626;
-  height: 70px;
-  width: 500px;
+.img-final2{
+  margin-bottom: 50vh;
 }
 
 .text-article-button1{
@@ -284,6 +289,29 @@ font-size: 30px;
   width: 500px;
   background-color: rgb(70, 60, 62);
   margin-bottom: 30px;
+}
+
+footer{
+  display: flex;
+  width: 100%;
+  height: 100px;
+  text-align: center;
+  justify-content: center;
+  background-color: #500d0d;
+  gap: 30px;
+}
+
+.p1{
+  color: #fff;
+  font-size: 1.5vh;
+  margin-top: 40px;
+}
+
+.img{
+  width: 50px;
+  height: 50px;
+  margin-top: 25px;
+  margin-left: 160vh;
 }
 
 @media screen and (max-width: 600px) {

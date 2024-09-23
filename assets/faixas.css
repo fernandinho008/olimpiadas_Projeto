@@ -194,7 +194,11 @@ footer{
 
 .p1{
   color: #fff;
+<<<<<<< Updated upstream
   font-size: 30px;
+=======
+  font-size: 1.5vh;
+>>>>>>> Stashed changes
   margin-top: 40px;
 }
 
@@ -202,5 +206,9 @@ footer{
   width: 70px;
   height: 70px;
   margin-top: 25px;
+<<<<<<< Updated upstream
   margin-left: 1600px;
+=======
+  margin-left: 160vh;
+>>>>>>> Stashed changes
 }
