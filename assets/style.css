@@ -87,7 +87,7 @@ margin-bottom: 100px;
 
 .div1 a{
   padding-top: 0.7vh;
-  padding-bottom: 0.9vh;
+  padding-bottom: 1.5vh;
   text-decoration: none;
   font-size: 24px;
   color: white;
@@ -98,7 +98,7 @@ margin-bottom: 100px;
 
 .div2 a{
   padding-top: 0.7vh;
-  padding-bottom: 0.9vh;    padding:20px;
+  padding-bottom: 1.5vh;
   background: rgba(0, 0, 0, 0.925);
   border-radius:3px;
   color:#ff0202;
