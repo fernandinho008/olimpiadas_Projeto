@@ -92,7 +92,7 @@ margin-bottom: 100px;
   font-size: 24px;
   color: white;
   background-color:#525151;
-  padding-inline: 24vh;
+  padding-inline: 21.6vh;
   border-radius: 0px 0px 20px 20px;
 }
 
@@ -103,7 +103,7 @@ margin-bottom: 100px;
   font-size: 24px;
   color: white;
   background-color:#525151;
-  padding-inline: 24vh;
+  padding-inline: 21.6vh;
   border-radius: 0px 0px 20px 20px;
 }
 
@@ -112,8 +112,8 @@ margin-bottom: 100px;
   text-align: center;
   justify-content: center;
   align-items: center;
-  gap: 550px;
-  font-size: 30px;
+  gap: 37vh;
+  font-size: 48px;
   margin-right: 80px;
 }
 
@@ -127,7 +127,7 @@ margin-bottom: 100px;
   text-align: center;
   margin-right: 70px;
   margin-bottom: 0px;
-  gap: 320px;
+  gap: 20vh;
 }
 
 .saiba-mais{
@@ -148,15 +148,15 @@ margin-bottom: 100px;
 }
 
 .img-final2{
-  margin-bottom: 50vh;
+  margin-bottom: 10vh;
 }
 
 .text-article-button1{
-font-size: 30px;
+font-size: 48px;
 }
 
 .text-article-botton2{
-  font-size: 30px;
+  font-size: 48px;
 }
 
 .last-text{
