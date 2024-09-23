@@ -244,5 +244,38 @@ footer{
   .last{
     margin: 7vh;
   }
-
+  .footer{
+    width: 100%;
+  }
+  .h1{
+    font-size: 40px;
+    margin-left: 2vh;
+    margin-top: 30px;
+  }
+  .p{
+    display: flex;
+    text-align: justify;
+    padding: 97%;
+    margin-left: 1vh;  
+    margin-right: 0.2vh;
+    font-size: 24px;
+  }
+  
+  .a{
+    display: flex;
+    text-align: justify;
+    padding: 90%;
+    margin-left: 2vh;  
+    margin-right: 0.2vh;
+    font-size: 24px;
+  }
+  
+  .b{
+    display: flex;
+    text-align: justify;
+    padding: 90%;
+    margin-left: 2vh;  
+    margin-right: 0.2vh;
+    font-size: 24px;
+  }
 }
