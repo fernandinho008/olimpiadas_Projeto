@@ -8,6 +8,35 @@
   font-family: "Bakbak One", sans-serif;
 }
 
+.opct{
+  height: 100vh;
+  background-color: black;
+  background-position: center;
+  background-size: cover;
+}
+header{
+  height: 100vh;
+  opacity: 70%;
+  background-image: url(./Historia_princ_img.png);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+header > img{
+  width: 17vh;
+  margin-bottom: 4%;
+  cursor: pointer;
+  animation: jumping 4s linear infinite;
+}
+
+ @keyframes jumping {
+  from {transform: translateY(-7px);}
+  50% {transform: translateY( 0);}
+  to {transform: translateY(-7px);}
+}
 .bakbak-one-regular {
   font-family: "Bakbak One", sans-serif;
   font-weight: 400;
@@ -56,6 +85,12 @@ justify-content: center;
   font-size: 30px;
 justify-content: center;
 }
+.text-article4{
+  margin-left: 150px;
+  margin-right: 150px;
+  font-size: 30px;
+justify-content: center;}
+
 /* Estilos do menu lateral */
 .sidebar {
   height: 100vh;
@@ -179,7 +214,7 @@ footer{
 
 .p1{
   color: #fff;
-  font-size: 03px;
+  font-size: 3px;
   margin-top: 40px;
 }
 
