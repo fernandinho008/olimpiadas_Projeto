@@ -255,9 +255,4 @@ button{
     .last{
       margin: 7vh;
     }
-    .feedback{
-        position: absolute;
-        margin-top: 10vh;
-        margin-bottom: 10vh;
-    }
 }
