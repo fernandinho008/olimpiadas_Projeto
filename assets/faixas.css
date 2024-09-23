@@ -262,20 +262,18 @@ footer{
   }
   
   .a{
+    margin: auto;
     display: flex;
     text-align: justify;
     padding: 90%;
-    margin-left: 2vh;  
-    margin-right: 0.2vh;
     font-size: 24px;
   }
   
   .b{
+    margin: auto;
     display: flex;
     text-align: justify;
     padding: 90%;
-    margin-left: 2vh;  
-    margin-right: 0.2vh;
     font-size: 24px;
   }
 }
