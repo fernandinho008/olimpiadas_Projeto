@@ -193,5 +193,6 @@ body{
             margin: 5px 0;
         }
         .feedback .stars label {
+            color: #f5c518;
             font-size: 20px;
         }
