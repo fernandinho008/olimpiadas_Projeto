@@ -318,6 +318,9 @@ footer{
 }
 
 @media screen and (max-width: 600px) {
+  body{
+    overflow-x: hidden;
+  }
   .opct{
     height: 30vh;
   }
@@ -371,6 +374,9 @@ footer{
     width: 40%;
     position: relative;
   }
+}
+@media screen and (max-width: 1366px) {
+
 }
 
 

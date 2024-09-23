@@ -223,6 +223,19 @@ footer{
 }
 
 @media screen and (max-width: 600px) {
+  body{
+    text-align: center;
+  }
+  .h1-text{
+    font-size: 10px;
+  }
+  p{
+   font-size: 15px; 
+  }
+  footer{
+    width: 360px;
+    overflow-x: hidden;                           
+  }
   .opct{
     height: 30vh;
   }
