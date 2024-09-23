@@ -257,6 +257,7 @@ button{
     }
     .feedback{
         position: absolute;
-        margin-top: 50vh;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
     }
 }
