@@ -12,6 +12,11 @@ body {
   font-family: Arial, sans-serif;
   overflow-x: hidden;
 }
+.podium-title{
+  font-size: 50px;
+  margin-bottom:100px ;
+
+}
 
 /* Estilos do menu lateral */
 .sidebar {
@@ -139,6 +144,7 @@ article{
   text-align: center;
   align-items: center;
   justify-content: center;
+  margin-right: 100px;
 }
 .container1{
   display: flex;
