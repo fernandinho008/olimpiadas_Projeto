@@ -199,14 +199,14 @@ article{
 
 
 .podium__item {
-  width: 300px;
+  width: 250px;
 }
 
 
 
 
 .podium .first {
-  min-height: 600px;
+  min-height: 500px;
   background: rgb(255,172,37);
 background: 
   linear-gradient(333deg, 
@@ -217,7 +217,7 @@ background:
 }
 
 .podium .second {
-  min-height: 500px;
+  min-height: 400px;
   background: silver;
   text-align: center;
   align-items: center;
@@ -225,7 +225,7 @@ background:
 }
 
 .podium .third {
-  min-height: 300px;
+  min-height: 200px;
   background: orange;
 }
 
