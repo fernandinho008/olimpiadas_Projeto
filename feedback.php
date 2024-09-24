@@ -1,4 +1,25 @@
-<!DOCTYPE html>
+
+<?php
+session_start();
+
+if (!isset($_SESSION['comentarios'])) {
+    $_SESSION['comentarios'] = [];
+}
+
+if ($_SERVER['REQUEST_METHOD'] == 'POST') {
+    $nome = htmlspecialchars($_POST['nome']);
+    $comentario = htmlspecialchars($_POST['comentario']);
+    $estrelas = htmlspecialchars($_POST['estrelas']);
+    
+    if (!empty($nome) && !empty($comentario) && !empty($estrelas)) {
+        $_SESSION['comentarios'][] = [
+            'nome' => $nome,
+            'comentario' => $comentario,
+            'estrelas' => $estrelas
+        ];
+    }
+}
+?><!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
@@ -28,72 +49,42 @@
             </div>
         </div>
         
-        <!-- Conteúdo Principal -->
-        <div class="main-content">
-            <h1>Deixe seu Feedback</h1>
 
-            <!-- Formulário de Feedback -->
-            <div class="feedback-form">
-                <form action="feedback.php" method="post">
-                    <label for="nome">Seu Nome:</label>
-                    <input type="text" id="nome" name="nome" required>
-
-                    <label for="comentario">Seu Comentário:</label>
-                    <textarea id="comentario" name="comentario" rows="5" required></textarea>
-
-                    <label for="estrelas">Avaliação:</label>
-                    <div class="stars">
-                        <input type="radio" id="star5" name="estrelas" value="5"><label for="star5">★</label>
-                        <input type="radio" id="star4" name="estrelas" value="4"><label for="star4">★</label>
-                        <input type="radio" id="star3" name="estrelas" value="3"><label for="star3">★</label>
-                        <input type="radio" id="star2" name="estrelas" value="2"><label for="star2">★</label>
-                        <input type="radio" id="star1" name="estrelas" value="1" required><label for="star1">★</label>
-                    </div>
-
-                    <button type="submit">Enviar Feedback</button>
-                </form>
+        <div class="container">
+        <h1>Deixe seu Comentário</h1>
+        <form method="POST" class="formulario">
+            <div class="estrelas">
+                <label>
+                    <input type="radio" name="estrelas" value="1" required> ★
+                </label>
+                <label>
+                    <input type="radio" name="estrelas" value="2" required> ★★
+                </label>
+                <label>
+                    <input type="radio" name="estrelas" value="3" required> ★★★
+                </label>
+                <label>
+                    <input type="radio" name="estrelas" value="4" required> ★★★★
+                </label>
+                <label>
+                    <input type="radio" name="estrelas" value="5" required> ★★★★★
+                </label>
             </div>
+            <input type="text" name="nome" placeholder="Seu nome" required>
+            <textarea name="comentario" placeholder="Seu comentário" required></textarea>
+            <button type="submit">Fazer Comentário</button>
+        </form>
 
-            <div class="feedbacks">
-                <?php
-                    session_start();
-                    if (!isset($_SESSION['feedbacks'])) {
-                        $_SESSION['feedbacks'] = [
-                            ['nome' => 'Ana', 'comentario' => 'Ótima página, muito informativa!', 'estrelas' => 5],
-                            ['nome' => 'Bruno', 'comentario' => 'Gostei muito da organização do site.', 'estrelas' => 4],
-                            ['nome' => 'Carlos', 'comentario' => 'Amo esgrima e recomendo!', 'estrelas' => 5]
-                        ];
-                    }
-
-                    if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-                        $nome = htmlspecialchars($_POST['nome']);
-                        $comentario = htmlspecialchars($_POST['comentario']);
-                        $estrelas = intval($_POST['estrelas']);
-
-                        // Armazena o feedback em uma sessão
-                        $_SESSION['feedbacks'][] = [
-                            'nome' => $nome,
-                            'comentario' => $comentario,
-                            'estrelas' => $estrelas
-                        ];
-                    }
-
-                    // Exibe todos os feedbacks armazenados
-                    foreach ($_SESSION['feedbacks'] as $feedback) {
-                        echo "<div class='feedback'>";
-                        echo "<h3>{$feedback['nome']}</h3>";
-                        echo "<div class='stars'>";
-                        for ($i = 0; $i < $feedback['estrelas']; $i++) {
-                            echo "<label>★</label>";
-                        }
-                        echo "</div>";
-                        echo "<p>{$feedback['comentario']}</p>";
-                        echo "</div>";
-                    }
-                ?>
-            </div>
+        <div class="comentarios">
+            <h2>Comentários:</h2>
+            <?php foreach ($_SESSION['comentarios'] as $c): ?>
+                <div class="comentario">
+                    <strong><?php echo $c['nome']; ?> (<?php echo str_repeat('★', $c['estrelas']); ?>)</strong>
+                    <p><?php echo $c['comentario']; ?></p>
+                </div>
+            <?php endforeach; ?>
         </div>
-    </div>  
+    </div>
     <script src="script.js"></script>
 </body>
 </html>
